@@ -1,0 +1,132 @@
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: white;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
+  z-index: 100;
+}
+.left-section{
+  display: flex;
+  align-items: center;
+}
+.hamburger-menu{
+  height: 24px;
+  margin: auto 20px auto 20px;
+}
+.youtube-logo{
+  height: 20px;
+}
+.middle-section{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  
+}
+.search-button{
+  height: 40px;
+  width: 66px;
+  background-color: rgb(240, 240, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-left: -1px;  
+  margin-right: 8px;
+}
+.search-button .tooltrip{
+  position: absolute;8
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+.search-button:hover .tooltrip{
+  opacity: 1;
+}
+.search-logo{
+  height: 25px;
+  margin-top: 5px;
+
+}
+.voice-search-button{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.voice-search{
+  height: 24px;
+  margin-top: 4px;
+}
+.search-bar{
+  flex: 1;
+  height: 36.5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  width: 0;
+  
+}
+.search-bar::placeholder{
+  font-family: roboto,Arial;
+  font-size: 16px;
+  padding-left: 12px;
+}
+.right-section{
+  width:200px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-shrink: 0;
+}
+.upload-icon{
+  height: 24px;
+}
+.youtube-app-icon{
+  height: 24px;
+}
+.notification-icon{
+  height: 24px;
+}
+.notification-icon-container{
+  position: relative;
+}
+.notification-count{
+  position: absolute;
+  top: -2px;
+  right: -3px;
+  background-color: rgb(241, 61, 61);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;  
+  border-radius: 10px;
+}
+
+.current-user-picture{
+  height: 32px;
+  border-radius: 16px;
+}
